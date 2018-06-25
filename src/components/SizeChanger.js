@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function SizeChanger() {
+export default function SizeChanger(props) {
   return (
-    <select className="dropDownContainer">
+    <select className="dropDownContainer" value={props.fontSize}>
       <option value="12"> 12 </option>
-      <option value="13"> 13 </option>
-      <option value="14"> 14 </option>
+      <option value="16"> 16 </option>
+      <option value="36"> 36 </option>
     </select>
   )
 }

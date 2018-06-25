@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function FamilyChanger(props) {
+export default function FamilyChanger() {
   return (
-    <select className="dropDownContainer" value={props.fontFamily} onChange={e => props.updateFamily(e.target.value)}>
+    <select className="dropDownContainer">
       <option value="monospace"> Monospace </option>
       <option value="arial"> Arial </option>
       <option value="courier"> Courier </option>
